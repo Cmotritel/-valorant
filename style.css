@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+     background-color: brown;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: cornsilk;
+    font-size: 48px;
+    margin-left: 20px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Main{
+    
+    background-color: darkslategray;
+    padding: 15px;
+}
+.post{
+    background-color: rgb(10, 97, 97);
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.pic img{
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+}
+.text p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.footer{
+    height: 60px;
+    background-color: brown;
+    font-size: 20px;
+    color: cornsilk;
+    text-align: center;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+    list-style: none;
+    margin-right: 40px;
+    
+}
+.menu a{
+    color: lightyellow;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+
+}
+.carousel img{
+    height: 900px;
+}
+.carousel{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    color: cornsilk;
+    font-size: 48px;
+    margin-left: 20px;
+}
+.video{
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.h2{
+    font-size: 20px;
+}
+.contacts img{
+    width: 50px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.block p {
+    margin-left: 20px;
+
+}
